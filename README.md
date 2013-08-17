@@ -6,7 +6,7 @@ Scans the file system in nodejs
 在nodejs环境下扫描文件系统的工具。
 例子：
 -----
-
+```js
 var scanFS = require('scan-fs' ).create();
 //scanFS.exclude(__filename);
 //scanFS.exclude(/dir.*/);
@@ -35,3 +35,4 @@ scanFS.listeners({
 		console.log('path: ' + path);
 	}
 	}).setRecursive(true).scan('/home/lg/workspace/nodejs');
+```
