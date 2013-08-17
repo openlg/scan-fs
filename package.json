@@ -1,17 +1,36 @@
 {
-  "name": "scan-fs"
-  , "description": "Scans the file system."
-  , "keywords": ["scan-fs", "scan file", "scan directory", "scan fs", "directory", "file system"]
-  , "version": "0.0.1"
-  , "homepage": "https://github.com/lrf0808/scan-fs"
-  , "authors": [
+  "name": "scan-fs",
+  "description": "Scans the file system.",
+  "keywords": [
+    "scan-fs",
+    "scan file",
+    "scan directory",
+    "scan fs",
+    "directory",
+    "file system"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/lrf0808/scan-fs",
+  "authors": [
     {
       "name": "openlg",
       "email": "lirufei0808@gmail.com"
     }
-  ]
-  , "main": "./scan-fs.js"
-  , "dependencies": {
+  ],
+  "main": "./scan-fs.js",
+  "dependencies": {
     "path-filters": "1.0.x"
+  },
+  "scripts": {
+    "test": "./testScanFS.js `pwd`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lrf0808/scan-fs"
+  },
+  "author": "lg",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/lrf0808/scan-fs/issues"
   }
 }
