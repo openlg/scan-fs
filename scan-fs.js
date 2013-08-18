@@ -32,7 +32,7 @@ ScanFS.prototype.scan = function(path, parent){
 
 	if(this._exclusions.hasMatch(path)){
 		if(this.__pending === 0)
-			this.emit('complete', me.fileCount, me.dirCount);
+			this.emit('complete', this.fileCount, this.dirCount);
 		return ;
 	}
 
