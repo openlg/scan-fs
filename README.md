@@ -28,7 +28,7 @@ scanFS.listeners({
 	'complete': function(fileCount, dirCount){
 		console.log('complete: ' + fileCount + ' files, ' + dirCount + ' directory')
 	},
-	'root': function(path, eventArgs){
+	'root': function(path, eOpts){
 		console.log('root: ' + path);
 	},
 	'path': function(path, eOpts){
