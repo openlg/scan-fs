@@ -10,7 +10,7 @@
     "file system"
   ],
   "version": "0.0.3",
-  "homepage": "https://github.com/lrf0808/scan-fs",
+  "homepage": "https://github.com/openlg/scan-fs",
   "authors": [
     {
       "name": "openlg",
@@ -26,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lrf0808/scan-fs"
+    "url": "https://github.com/openlg/scan-fs"
   },
   "author": "lg",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/lrf0808/scan-fs/issues"
+    "url": "https://github.com/openlg/scan-fs/issues"
   }
 }
