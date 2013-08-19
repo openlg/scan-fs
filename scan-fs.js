@@ -75,9 +75,12 @@ ScanFS.prototype.scan = function(path, parent){
 						else {
 							me.__pending--;
 
-								fileNames.forEach(function(fileName, idx, all){
-									me.scan(join(path, fileName), path);
-								});
+							fileNames.forEach(function(fileName, idx, all){
+								me.scan(join(path, fileName), path);
+							});
+
+							if(me.__pending === 0)
+								me.emit('complete', me.fileCount, me.dirCount);
 
 						}
 					});
