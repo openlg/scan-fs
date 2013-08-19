@@ -41,7 +41,7 @@ Scans the file system in nodejs.
 		//...
 	});
 </pre>
-* 条用方法添加处理事件`onError`、`onPath`、`onRoot`、`onFile`、`onDirectory`、`onComplete`
+* 调用方法添加处理事件`onError`、`onPath`、`onRoot`、`onFile`、`onDirectory`、`onComplete`
 <pre>
 	scanFS.onError(function(err){
 		//...
