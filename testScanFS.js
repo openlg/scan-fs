@@ -7,7 +7,7 @@
  * Time: 11:47 PM
  * Version: v0.0.1
  */
-var scanFS = require('scan-fs' ).create()
+var scanFS = require('./scan-fs' ).create()
 	, scanPath = process.argv.slice(2);
 
 if(scanPath && scanPath.length > 0){

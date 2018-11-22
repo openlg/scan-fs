@@ -62,10 +62,10 @@ ScanFS.prototype.scan = function(path, parent){
 				me.emit('file', path, eOpts);
 			} else if( stat.isDirectory()){
 
-				if(parent){
+				//if(parent){
 					me.dirCount ++ ;
 					me.emit('directory', path, eOpts);
-				}
+				//}
 				if(me.__recursive || parent === undefined){
 					me.__pending++;
 
